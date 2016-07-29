@@ -67,14 +67,14 @@
 % The command will start a new page and output in onecolumn the
 % subject (first and last name) with the hardcoded text
 % "Curriculum vitae" under it.
-\renewcommand\part[1]{%
-    \twocolumn[%
-    \begin{center}
-	\vskip-\lastskip%
-	{\usekomafont{part} #1} \medskip\\
-	{\fontfamily{pzc}\selectfont\Huge Curriculum vitae}
-	\bigskip
-    \end{center}]}
+%\renewcommand\part[1]{%
+%    \twocolumn[%
+%    \begin{center}
+%	\vskip-\lastskip%
+%	{\usekomafont{part} #1} \medskip\\
+%	{\fontfamily{pzc}\selectfont\Huge Test Curriculum vitae}
+%	\bigskip
+%    \end{center}]}
 
 % Overrides the \section command to capitalize every
 % word for cosmetic purposes and draws a rule under it.
