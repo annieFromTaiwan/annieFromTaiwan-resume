@@ -1,0 +1,5 @@
+# You could use following latex docker image.
+docker run -it -v $(pwd):/source schickling/latex
+
+# You could use following command to compile `.tex`.
+pdflatex cv.tex && rm *.log *.out *.aux
